@@ -1,0 +1,41 @@
+/* src/components/ResearchHub.css */
+.research-hub {
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .research-hub h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .article-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .article-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .article-item:last-child {
+    border-bottom: none;
+  }
+  
+  .article-item a {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .article-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .article-item p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  

@@ -1,0 +1,58 @@
+/* src/components/Chat.css */
+.chat {
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .chat h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .chat-history {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+  }
+  
+  .chat-message {
+    margin: 10px 0;
+  }
+  
+  .chat-message.Your {
+    text-align: right;
+  }
+  
+  .chat-message.Mentor {
+    text-align: left;
+  }
+  
+  .chat-form {
+    display: flex;
+  }
+  
+  .chat-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .chat-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .chat-form button:hover {
+    background-color: #45a049;
+  }
+  

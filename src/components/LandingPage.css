@@ -1,0 +1,27 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .landing-page h1 {
+    font-size: 2.5em;
+  }
+  
+  .landing-page p {
+    margin: 20px 0;
+  }
+  
+  .landing-page button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .landing-page button:hover {
+    background-color: #45a049;
+  }
+  
