@@ -67,7 +67,7 @@ function App() {
           </Routes>
         </main>
         <footer className="app-footer">
-          <p>© 2024 Mentor Connect. All rights reserved.</p>
+          <p>© 2025 Mentor Connect. All rights reserved.</p>
         </footer>
       </div>
     </Router>
