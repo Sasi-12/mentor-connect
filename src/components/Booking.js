@@ -29,6 +29,13 @@ function Booking() {
             <option value="Dr. Smith">Dr. Smith</option>
             <option value="Prof. Johnson">Prof. Johnson</option>
             <option value="Ms. Lee">Ms. Lee</option>
+            <option value="Dr. Patel">Dr. Patel</option>
+            <option value="Prof. Brown">Prof. Brown</option>
+            <option value="Mr. Kumar">Mr. Kumar</option>
+            <option value="Ms. Davis">Ms. Davis</option>
+            <option value="Dr. Garcia">Dr. Garcia</option>
+            <option value="Prof. Wilson">Prof. Wilson</option>
+            <option value="Ms. Martinez">Ms. Martinez</option>
             {/* Add more mentors as needed */}
           </select>
         </div>
