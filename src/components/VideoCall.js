@@ -20,16 +20,13 @@ function VideoCall({ token, roomName }) {
         tracks: localTracks
       });
 
-      // Set the room state to the connected room
       setRoom(room);
 
-      // Attach local participant's video to the DOM
       room.localParticipant.tracks.forEach(publication => {
         const track = publication.track;
         document.getElementById('local-video').appendChild(track.attach());
       });
 
-      // Handle remote participants joining the room
       room.on('participantConnected', participant => {
         participant.tracks.forEach(publication => {
           if (publication.isSubscribed) {
