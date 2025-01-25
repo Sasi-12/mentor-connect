@@ -9,13 +9,12 @@ function VideoCall({ token, roomName }) {
 
   const joinRoom = async () => {
     try {
-      // Create local video and audio tracks
+      
       const localTracks = await createLocalTracks({
         video: { width: 640 },
         audio: true
       });
 
-      // Connect to the Twilio room using the token and room name
       const room = await connect(token, {
         name: roomName,
         tracks: localTracks

@@ -12,7 +12,6 @@ function Chat() {
       setChatHistory([...chatHistory, { text: message, sender: 'You' }]);
       setMessage('');
       
-      // Simulate receiving a response from the mentor
       setTimeout(() => {
         setChatHistory((prevHistory) => [
           ...prevHistory,
