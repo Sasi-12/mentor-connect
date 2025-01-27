@@ -13,8 +13,8 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import './App.css';
 
 function App() {
-  const videoToken = "YOUR_TWILIO_VIDEO_TOKEN"; // Replace with actual token
-  const roomName = "my-room"; // Replace with actual room name
+  const videoToken = "YOUR_TWILIO_VIDEO_TOKEN"; 
+  const roomName = "my-room"; 
 
   return (
     <Router>
